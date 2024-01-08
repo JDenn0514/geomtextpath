@@ -29,7 +29,7 @@ Imports:
     systemfonts,
     rlang,
     textshaping
-RoxygenNote: 7.2.1
+RoxygenNote: 7.2.3.9000
 Suggests: 
     testthat (>= 3.0.0),
     covr,
@@ -57,6 +57,7 @@ Collate:
     'utils.R'
     'geom_textdensity2d.R'
     'geom_texthline.R'
+    'geom_textpath_bump.R'
     'geom_textsf.R'
     'geom_textsmooth.R'
     'geom_textvline.R'
@@ -68,6 +69,7 @@ Collate:
     'scales.R'
     'sf_helpers.R'
     'smoothing.R'
+    'stat_bump.R'
     'text_helpers.R'
     'text_placement.R'
     'trig_helpers.R'
