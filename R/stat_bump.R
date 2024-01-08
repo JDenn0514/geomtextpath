@@ -56,6 +56,13 @@ rank_sigmoid <- function(x, y, smooth = 8, direction = "x") {
   purrr::pmap_dfr(.df, ~sigmoid(x_from = ..3, x_to = ..1, y_from = ..4, y_to = ..2, smooth  = smooth, direction = direction))
 }
 
+
+# StatBump -------------------------------------------------------------
+
+#' @export
+#' @format NULL
+#' @usage NULL
+
 StatBump <- ggplot2::ggproto(
   "StatBump", ggplot2::Stat,
   setup_data = function(data, params) {
