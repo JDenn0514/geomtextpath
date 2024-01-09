@@ -43,6 +43,7 @@ Suggests:
 Config/testthat/edition: 3
 VignetteBuilder: knitr
 Collate: 
+    'StatBump.R'
     'borrowed_gridtext.R'
     'coord_curvedpolar.R'
     'data.R'
@@ -69,7 +70,6 @@ Collate:
     'scales.R'
     'sf_helpers.R'
     'smoothing.R'
-    'stat_bump.R'
     'text_helpers.R'
     'text_placement.R'
     'trig_helpers.R'
